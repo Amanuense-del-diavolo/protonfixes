@@ -1,6 +1,6 @@
-# protonfixes	
+**This is an updated fork until simons-public merges the PRs**
 
-[![Build Status](https://travis-ci.com/simons-public/protonfixes.svg?branch=master)](https://travis-ci.com/simons-public/protonfixes)
+# protonfixes	
 
 ![Screenshot](https://github.com/simons-public/protonfixes/raw/master/media/splash.png)
 
@@ -48,7 +48,7 @@ Make sure to use the version of pip that matches the version of Python that Prot
 ```
 To install the latest version from Github:
 ```
-# sudo pip3 install git+https://github.com/simons-public/protonfixes@master
+# sudo pip3 install git+https://github.com/mrjackv/protonfixes@master
 ```
 
 ### Upgrade from PIP
@@ -58,7 +58,7 @@ To upgrade to the latest version on Pypi:
 ```
 To upgrade to the latest version on Github:
 ```
-# sudo pip3 install --upgrade git+https://github.com/simons-public/protonfixes@master
+# sudo pip3 install --upgrade git+https://github.com/mrjackv/protonfixes@master
 ```
 
 ### Install using setuptools

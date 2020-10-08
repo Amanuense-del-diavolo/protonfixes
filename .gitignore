@@ -118,3 +118,8 @@ deploy.sh
 
 # PyCharm and IntelliJ
 .idea/
+
+debian/python3-protonfixes
+debian/files
+debian/*.debhelper
+debian/*.substvars

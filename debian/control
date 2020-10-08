@@ -1,0 +1,21 @@
+Source: protonfixes
+Maintainer: Giacomo Vercesi <1vercesig@gmail.com>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 7.4.3)
+Standards-Version: 3.9.1
+
+
+
+
+
+Package: python3-protonfixes
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Recommends:
+ kdialog | zenity | python-kivy,
+ wine,
+ winetricks
+Description: Python module to fix Windows Steam games runnign with Proton
+ Python module for applying fixes at runtime to unsupported games
+ with Steam Proton without changing game installation files.
